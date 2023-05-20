@@ -33,9 +33,9 @@
 
 .button:hover {
   /* ホバーしたときにちょっと押し込む */
-  /* transform: translateY(3px);
-  filter: drop-shadow(0 3px 0 var(--foreground-color)); */
-  opacity: 0.6;
+  transform: translateY(3px);
+  filter: drop-shadow(0 3px 0 var(--foreground-color));
+  /* opacity: 0.6; */
 }
 
 .button:active {
